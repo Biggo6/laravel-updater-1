@@ -1,0 +1,31 @@
+{
+    "name": "thetodd/laravel-updater",
+    "description": "A Laravel 5.2+ self updater package.",
+    "keywords": ["framework", "laravel", "self-update", "update"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Florian Schleich",
+            "email": "florian.schleich@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "laravel/framework": "^5.1",
+        "naneau/semver": "^0.0.7"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0",
+        "sllh/php-cs-fixer-styleci-bridge": "^1.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Thetodd\\Laravel\\Updater\\": "src/"
+        }
+    },
+    "support": {
+        "issues": "https://github.com/thetodd/laravel-updater/issues",
+        "source": "https://github.com/thetodd/laravel-updater",
+        "wiki": "https://github.com/thetodd/laravel-updater/wiki"
+    }
+}
