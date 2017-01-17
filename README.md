@@ -11,13 +11,13 @@ PHP >= 5.3
 ### Installation
 1. Run
 ```
-composer require thetodd/laravel-updater
+composer require 
 ```
 2. Add service provider to **/config/app.php** file.
 ```php
 'providers' => [
     ...
-    Thetodd\Laravel\Updater\SelfUpdaterServiceProvider::class,
+    
 ],
 ```
 3. Create a **version.json** file in the root directory.
@@ -28,7 +28,7 @@ composer require thetodd/laravel-updater
 ```
 4. Publish config file. (optionally)
 ```
-php artisan vendor:publish
+php artisan 
 ```
 
 ### Usage
